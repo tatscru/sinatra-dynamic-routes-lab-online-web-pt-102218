@@ -18,6 +18,7 @@ class App < Sinatra::Base
     @number = params[:number]
     
     result = @number.times 
+    result
     
   end 
   
