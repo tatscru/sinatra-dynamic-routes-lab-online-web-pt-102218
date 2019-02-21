@@ -35,9 +35,10 @@ class App < Sinatra::Base
     case operation 
     when "add"
       (@num1 + @num2).to_s
-    when 
-    (@num2 - @num1).to_i
-    (@num1 * @num2).to_i 
+    when "subtract"
+      (@num2 - @num1).to_s
+    when "multiply"
+      (@num1 * @num2).to_s
     (@num1 % @num2).to_i
   end 
   
