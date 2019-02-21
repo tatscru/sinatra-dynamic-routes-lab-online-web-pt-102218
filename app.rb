@@ -20,6 +20,10 @@ class App < Sinatra::Base
     result = @number.times 
     result
     
+    final_string = ""
+		@number.times do
+			final_string += @phrase
+    
   end 
   
   get '/say/:word1/:word2/:word3/:word4/:word5' do 
